@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JewelIndia - Modern Jewelry Store</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#17b0cf",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#111e21",
+                        "surface-light": "#ffffff",
+                        "surface-dark": "#1a2c32",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#0e191b] dark:text-white transition-colors duration-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-[#e7f1f3] dark:border-[#2a4045] bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-sm">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between gap-4">
+<div class="flex items-center gap-2 shrink-0">
+<div class="flex size-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">diamond</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-[#0e191b] dark:text-white">JewelIndia</h1>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-medium text-[#0e191b] dark:text-gray-200 hover:text-primary transition-colors" href="#">Jhumkas</a>
+<a class="text-sm font-medium text-[#0e191b] dark:text-gray-200 hover:text-primary transition-colors" href="#">Necklaces</a>
+<a class="text-sm font-medium text-[#0e191b] dark:text-gray-200 hover:text-primary transition-colors" href="#">Bangles</a>
+<a class="text-sm font-medium text-[#0e191b] dark:text-gray-200 hover:text-primary transition-colors" href="#">Bridal Sets</a>
+<a class="text-sm font-medium text-red-500 hover:text-red-600 font-bold transition-colors" href="#">Sale</a>
+</nav>
+<div class="flex flex-1 items-center justify-end gap-4">
+<div class="hidden md:flex w-full max-w-xs relative">
+<input class="w-full rounded-lg border-none bg-[#e7f1f3] dark:bg-[#23353b] py-2 pl-10 pr-4 text-sm text-[#0e191b] dark:text-white placeholder-gray-500 focus:ring-2 focus:ring-primary" placeholder="Search for Kundan, Gold..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2 text-gray-500 text-[20px]">search</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-[#0e191b] dark:text-white hover:text-primary transition-colors rounded-full hover:bg-gray-100 dark:hover:bg-gray-800">
+<span class="material-symbols-outlined">person</span>
+</button>
+<button class="p-2 text-[#0e191b] dark:text-white hover:text-primary transition-colors rounded-full hover:bg-gray-100 dark:hover:bg-gray-800">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+<button class="p-2 text-[#0e191b] dark:text-white hover:text-primary transition-colors rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 relative">
+<span class="material-symbols-outlined">shopping_bag</span>
+<span class="absolute top-1 right-1 size-2 bg-red-500 rounded-full"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="relative w-full">
+<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+<div class="relative overflow-hidden rounded-2xl bg-[#111e21]">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-10"></div>
+<div class="h-full w-full bg-cover bg-center" data-alt="Indian model wearing traditional gold temple jewellery necklace and earrings" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAa5UWtCQxf26_nzrUt2p8kfSiET8oI39vcwuinoEuIt0pupKhch0NVM4EuZr_T-qmbEwmudJeHSOZzneIzEWepUcYPnpfpm2hCRT97edriQ_cMs7MbuOyY91WFl7Vj3RP1SND_X2G0Eq1UOmzdZW-DZbPUlkNiY6R6s_Krhzwr2BQhApeq5vxv6mPj7Z-96C_9vuwjPexqlL4eSUnLrj94NR_tQ_Tl6nH5SpjcmgTgP9hTYSFz2heKyDXs8czl_8gpPv0ZzKW9isTG');">
+</div>
+</div>
+<div class="relative z-10 flex min-h-[500px] flex-col justify-center px-6 py-12 sm:px-12 lg:w-1/2">
+<span class="mb-4 inline-block w-fit rounded-full bg-primary/20 px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary border border-primary/30 backdrop-blur-sm">
+                            New Vivah Collection
+                        </span>
+<h1 class="mb-4 text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
+                            Adorn Yourself <br/>in <span class="text-primary">Tradition</span>
+</h1>
+<p class="mb-8 text-lg font-light text-gray-200">
+                            Exquisite Jewellery for the Modern Indian Woman. From authentic Kundan craftsmanship to sparkling American Diamond sets.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-base font-bold text-white transition-transform hover:scale-105 hover:bg-primary/90">
+                                Shop New Arrivals
+                            </button>
+<button class="inline-flex h-12 items-center justify-center rounded-lg bg-white/10 px-8 text-base font-bold text-white backdrop-blur-sm transition-colors hover:bg-white/20">
+                                View Categories
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full border-b border-[#e7f1f3] dark:border-[#2a4045] bg-surface-light dark:bg-surface-dark">
+<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+<div class="grid grid-cols-2 gap-6 md:grid-cols-4">
+<div class="flex flex-col items-center gap-2 text-center">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<p class="font-bold text-[#0e191b] dark:text-white">BIS Hallmarked</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">100% Certified Purity</p>
+</div>
+</div>
+<div class="flex flex-col items-center gap-2 text-center">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">local_shipping</span>
+</div>
+<div>
+<p class="font-bold text-[#0e191b] dark:text-white">Pan-India Shipping</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">Free delivery above ₹999</p>
+</div>
+</div>
+<div class="flex flex-col items-center gap-2 text-center">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">currency_rupee</span>
+</div>
+<div>
+<p class="font-bold text-[#0e191b] dark:text-white">Best Prices</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">Direct from Artisans</p>
+</div>
+</div>
+<div class="flex flex-col items-center gap-2 text-center">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">lock</span>
+</div>
+<div>
+<p class="font-bold text-[#0e191b] dark:text-white">Secure Payments</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">Safe &amp; Encrypted</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full py-12 lg:py-16">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col gap-2 mb-10 text-center sm:text-left">
+<h2 class="text-3xl font-bold tracking-tight text-[#0e191b] dark:text-white sm:text-4xl">Curated Collections</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl">Explore our handpicked selections, from royal weddings to elegant daily wear.</p>
+</div>
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+<div class="group relative overflow-hidden rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm transition-all hover:shadow-md">
+<div class="aspect-[4/3] w-full bg-gray-200 overflow-hidden">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Close up of intricate gold Temple Jewellery on a dark background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCCQaLHFzED-rngR32oYmRUe1FkIEpvTxlitkwuXn7lN4yrzg1Pwx2zWbG-HPoWqRlKpmZsPkj9l5IG4-3to1DLjjQr8eiwVsOzaRKx4Wl0wLGh3Z4Cp3V3wCVxdl48e30wM4OYh-lyvmuvsrGM7KbVr2BMvgXxG1261WYjX6u4-9uZlLq7ovTAVEeceUGKQ6Eg5vKkxXNkn5PLz76q3yULXLyxF2uwSKpIxKhMZXAZw1lYJIAY3EkiLm9-1cH92Z_Jqx7xevyXKEvE');">
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-xl font-bold text-white">Temple Jewellery</h3>
+<p class="text-sm text-gray-200 mt-1">Intricate designs inspired by heritage.</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm transition-all hover:shadow-md">
+<div class="aspect-[4/3] w-full bg-gray-200 overflow-hidden">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Luxurious Kundan necklace set on a velvet stand" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBuBiOTjKo2fw4cYK78TL-SsTEzvRcISEihW7PwX1TK35n1mt8p8jRaIjCVIXy-FThBX-QbOLchdyQbMxXr5BrrOduqUVPbX28lkxbeOnePtNyrbd1fx07hghydAG8ctf8nbVQqeU6HQKSHwiD2salRQiTmXTyXS6d6h0Ocd2i1vu1Q3NI6sAOFpwNFGY6WYDHWC7D48AATwfOzicAMPLRrGk5HCeeKHm3Wd4cTk_a40URIk7UdWQKe8S9GRKIxlfyqv2PaN_1A1bob');">
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-xl font-bold text-white">Kundan &amp; Polki</h3>
+<p class="text-sm text-gray-200 mt-1">Royal craftsmanship for the bride in you.</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm transition-all hover:shadow-md">
+<div class="aspect-[4/3] w-full bg-gray-200 overflow-hidden">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Modern minimalist gold earrings and pendant for daily wear" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPywl7pIGgM2o7xSWaldd1tRTMYiaeCng66dYfXqFe7zIzP15fX_Hz_vt8MKwm9eUTVm4BMSnNOMwlCKAv0pN9BuwY0wGv_QhgrPZRQxTQ14shANRWucxPxX57fKA4YMxDid6P1kxTTHu54oQZeYQauuUFGtJp3rRvWf3U9Lp4ACJ1aSAfVw4afkjJZMAAK1ch-TAzPJNT2MtnMqVtNLykYGXXlcN8ZbTCcpEBNnYj-lLCLePfAwPGQXjKtGV18Q8IEjHUrNzuVjsk');">
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-xl font-bold text-white">Office &amp; Daily Wear</h3>
+<p class="text-sm text-gray-200 mt-1">Elegant, lightweight fancy items.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full bg-[#e7f1f3] dark:bg-[#1f3137]">
+<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+<div class="flex flex-col lg:flex-row gap-10 items-center">
+<div class="flex-1 space-y-8 text-center lg:text-left">
+<div class="space-y-4">
+<span class="text-sm font-bold uppercase tracking-wider text-red-500">Limited Time Offer</span>
+<h2 class="text-4xl font-black tracking-tight text-[#0e191b] dark:text-white">Deal of the Day</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300">
+                                Grab our bestseller <span class="font-bold">Meenakari Peacock Jhumkas</span> at an exclusive 40% discount. Hurry before the stock runs out!
+                            </p>
+</div>
+<div class="flex gap-4 justify-center lg:justify-start">
+<div class="flex flex-col items-center gap-2">
+<div class="flex h-16 w-16 items-center justify-center rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm">
+<p class="text-2xl font-bold text-primary">00</p>
+</div>
+<span class="text-xs font-medium uppercase text-gray-500">Days</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="flex h-16 w-16 items-center justify-center rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm">
+<p class="text-2xl font-bold text-primary">04</p>
+</div>
+<span class="text-xs font-medium uppercase text-gray-500">Hours</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="flex h-16 w-16 items-center justify-center rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm">
+<p class="text-2xl font-bold text-primary">35</p>
+</div>
+<span class="text-xs font-medium uppercase text-gray-500">Mins</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="flex h-16 w-16 items-center justify-center rounded-xl bg-surface-light dark:bg-surface-dark shadow-sm">
+<p class="text-2xl font-bold text-primary">20</p>
+</div>
+<span class="text-xs font-medium uppercase text-gray-500">Secs</span>
+</div>
+</div>
+<button class="inline-flex h-12 min-w-[160px] items-center justify-center rounded-lg bg-primary px-6 text-base font-bold text-white hover:bg-primary/90 transition-colors">
+                            Buy Now - ₹1,499
+                        </button>
+</div>
+<div class="flex-1 w-full max-w-md lg:max-w-full">
+<div class="aspect-square relative rounded-2xl overflow-hidden shadow-xl bg-white">
+<div class="absolute top-4 left-4 z-10 rounded-full bg-red-500 px-3 py-1 text-sm font-bold text-white shadow-md">-40%</div>
+<div class="h-full w-full bg-cover bg-center" data-alt="Pair of blue enameled Meenakari Jhumka earrings" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCN3Me0_tC6iP6DUHyV8BjmveXaMvDWL74uT7y1P81WDt0KtC3nfdnsz8xX_cgTgrppHu2GPMgDPmRdMcTJeZw5-uqhX69iOG2j2TL9BEczOrU9wUCrOjZdtUFegf9ImPQ2GY0MBlTFctBPsj0US5iFXx-b2B6rUExIXLYCLDeB_ZSy0o87lBmJApsXvUvPTyU8P4_Q0fCutYtjkowm1oPtVLu242PD4EhOjXRxuDMpB3Ee6lPvddDHVfluIrcdaE7XRpXQg4Q3ohEy');">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full py-12 lg:py-16">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex items-end justify-between mb-8">
+<div>
+<h2 class="text-3xl font-bold tracking-tight text-[#0e191b] dark:text-white">Fresh from the Karigars</h2>
+<p class="mt-2 text-gray-600 dark:text-gray-400">Latest additions to our exclusive catalogue</p>
+</div>
+<a class="hidden sm:inline-flex items-center gap-1 font-bold text-primary hover:text-primary/80" href="#">
+                        View all <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-2 gap-x-4 gap-y-8 sm:gap-6 lg:grid-cols-4">
+<div class="group flex flex-col gap-3">
+<div class="aspect-[3/4] w-full overflow-hidden rounded-lg bg-gray-100 relative">
+<button class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-1.5 text-gray-900 shadow-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" data-alt="Traditional gold bangle set with red stones" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAFfgiqimv05yvg_Hf2h-tvc-EXhwyLkr8555UOaKVMALzkCyEuML92FLrslT7Eltu6ER3n322dnIirRY521LmetsqIDH5sj9euAl9UD4gQMdfCWOQuMPolOfTXAjy8PON00ani4obeJSuVmOzo0cnjxK_WgiVSLdR0yt7UZgFn1zu3-gOEDI7NxpZfS492YlMw45YJ9SfY6CUZzpm1BZiKpUGfbu8vKiX5aobqqgiHE84Ett4F5Ajf4KoggKw5Bb2wn_Ly88ic0FSH');">
+</div>
+<button class="absolute bottom-4 left-4 right-4 translate-y-full rounded-lg bg-surface-light/95 py-2.5 text-sm font-bold text-[#0e191b] opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 hover:!bg-primary hover:text-white">
+                                Add to Cart
+                            </button>
+</div>
+<div>
+<h3 class="font-medium text-[#0e191b] dark:text-white line-clamp-1">Antique Gold Plated Bangles</h3>
+<div class="mt-1 flex items-center gap-2">
+<span class="font-bold text-[#0e191b] dark:text-white">₹2,499</span>
+<span class="text-sm text-gray-500 line-through">₹3,999</span>
+</div>
+</div>
+</div>
+<div class="group flex flex-col gap-3">
+<div class="aspect-[3/4] w-full overflow-hidden rounded-lg bg-gray-100 relative">
+<button class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-1.5 text-gray-900 shadow-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" data-alt="Silver oxidised choker necklace" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAYUWff-G8dXPdOEClQa3mAheB4C6wdw-tp_p_RrUv2SpsnUG99A_oINpS8BSoiZ-dOd5mJC_lDS6t6nY6RBndZPNfjqQOnxCODx32hCu5432V-r4gTFXL8z2u4KY7VD37FSHgQz8CuXa-IpcBm_F4M08syJ2cn5Qtr7PzwYRKsLYzbKnYNWZYaeCgFBuDprFGbS6Xeyg7_8EO6Bpkh297TP2RX8PzXQWbsdUPY10dcP39bY04w_OJKfOGGzClUEe55MmMN3wEQKJWT');">
+</div>
+<button class="absolute bottom-4 left-4 right-4 translate-y-full rounded-lg bg-surface-light/95 py-2.5 text-sm font-bold text-[#0e191b] opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 hover:!bg-primary hover:text-white">
+                                Add to Cart
+                            </button>
+</div>
+<div>
+<h3 class="font-medium text-[#0e191b] dark:text-white line-clamp-1">Boho Oxidised Silver Choker</h3>
+<div class="mt-1 flex items-center gap-2">
+<span class="font-bold text-[#0e191b] dark:text-white">₹899</span>
+<span class="text-sm text-gray-500 line-through">₹1,200</span>
+</div>
+</div>
+</div>
+<div class="group flex flex-col gap-3">
+<div class="aspect-[3/4] w-full overflow-hidden rounded-lg bg-gray-100 relative">
+<button class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-1.5 text-gray-900 shadow-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" data-alt="American Diamond stud earrings" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuClulFuLTiaqFHjmVUmHeTHxcBDAXwmGjDUpIHXK5hP0Vb7fo0TrHsQVFHEjZjCHqFyLVyFHnaa3vsDB_tkWhRPEErmAPz9WZKaCN5PptiWGAoxIMhsS4AEVmy0-O6FSfdKjHsrfoRbkvsDID46L-7IFJUJj9cM5lFmHBtkcQw7g1QDwAmEl653ymGvBs-_YzZFZ6k5WXUdvoAV18V_xHK6p5QfJf_7c5wK0q_CnAAsdlccJCSJfKwkwioiRtkA2YpxMYNyx1xkpH6Q');">
+</div>
+<button class="absolute bottom-4 left-4 right-4 translate-y-full rounded-lg bg-surface-light/95 py-2.5 text-sm font-bold text-[#0e191b] opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 hover:!bg-primary hover:text-white">
+                                Add to Cart
+                            </button>
+</div>
+<div>
+<h3 class="font-medium text-[#0e191b] dark:text-white line-clamp-1">American Diamond Solitaire Studs</h3>
+<div class="mt-1 flex items-center gap-2">
+<span class="font-bold text-[#0e191b] dark:text-white">₹599</span>
+</div>
+</div>
+</div>
+<div class="group flex flex-col gap-3">
+<div class="aspect-[3/4] w-full overflow-hidden rounded-lg bg-gray-100 relative">
+<button class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-1.5 text-gray-900 shadow-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" data-alt="Gold Mangalsutra with black beads" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAaP0bTf4xWIghNoMD7Xo188K2FlKwWbBpHX8gQ4nARySQWpqPwqw-_xMsNg1B8xMHt5VGd1csgk-sSB-O4vrf4Dg8sfTESJTfwjnvfQdZrSmxPgjVvCw1pnLRGCoh3nk8nUfRbsrbUEGdF9U6A7q_mS7tpKUG9aSCuRiLNY7AHvUpXoejGlN3wHzehvLFIpDzOjcIr1fqURMOl9VG1ZL_rei2EAGgc6rpcU_BIwnbSubiJSnkOgEb5PJ6sMuUoubnLwlwjwZIp4PbU');">
+</div>
+<button class="absolute bottom-4 left-4 right-4 translate-y-full rounded-lg bg-surface-light/95 py-2.5 text-sm font-bold text-[#0e191b] opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 hover:!bg-primary hover:text-white">
+                                Add to Cart
+                            </button>
+</div>
+<div>
+<h3 class="font-medium text-[#0e191b] dark:text-white line-clamp-1">Traditional Short Mangalsutra</h3>
+<div class="mt-1 flex items-center gap-2">
+<span class="font-bold text-[#0e191b] dark:text-white">₹1,850</span>
+<span class="text-sm text-gray-500 line-through">₹2,100</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 flex justify-center sm:hidden">
+<button class="inline-flex h-10 items-center justify-center rounded-lg border border-gray-300 bg-white px-4 text-sm font-medium text-gray-700 hover:bg-gray-50">
+                        View All Products
+                    </button>
+</div>
+</div>
+</div>
+<footer class="bg-surface-light dark:bg-[#1a2c32] border-t border-[#e7f1f3] dark:border-[#2a4045]">
+<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+<div class="rounded-2xl bg-[#111e21] p-8 sm:p-12 text-center lg:text-left relative overflow-hidden mb-12">
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+<div>
+<h3 class="text-2xl font-bold text-white">Join the JewelIndia Family</h3>
+<p class="mt-2 text-gray-400">Subscribe for early access to new collections and exclusive festive offers.</p>
+</div>
+<form class="flex w-full max-w-sm gap-2">
+<input class="w-full rounded-lg border-0 px-4 py-3 text-sm text-gray-900 focus:ring-2 focus:ring-primary" placeholder="Enter your email" type="email"/>
+<button class="whitespace-nowrap rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white hover:bg-primary/90" type="button">
+                                Subscribe
+                            </button>
+</form>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4 lg:gap-12">
+<div>
+<h4 class="mb-4 text-sm font-bold uppercase tracking-wider text-[#0e191b] dark:text-white">Shop</h4>
+<ul class="space-y-3">
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">All Jewellery</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Bridal Collection</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Gift Cards</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Sale</a></li>
+</ul>
+</div>
+<div>
+<h4 class="mb-4 text-sm font-bold uppercase tracking-wider text-[#0e191b] dark:text-white">Policies &amp; Help</h4>
+<ul class="space-y-3">
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Track Order</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Shipping Policy</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Returns &amp; Exchanges</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Privacy Policy</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="mb-4 text-sm font-bold uppercase tracking-wider text-[#0e191b] dark:text-white">About</h4>
+<ul class="space-y-3">
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Our Story</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Artisan Community</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Store Locator</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="mb-4 text-sm font-bold uppercase tracking-wider text-[#0e191b] dark:text-white">Contact</h4>
+<ul class="space-y-3">
+<li class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
+<span class="material-symbols-outlined text-[18px]">call</span>
+                                +91 98765 43210
+                            </li>
+<li class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+                                hello@jewelindia.in
+                            </li>
+<li class="flex items-center gap-4 mt-4">
+<a aria-label="Facebook" class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a aria-label="Instagram" class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772 4.902 4.902 0 011.772-1.153c.636-.247 1.363-.416 2.427-.465C9.673 2.013 10.03 2 12.48 2h-.165zm-2.37 6.307c-2.484 0-4.5 2.016-4.5 4.5s2.016 4.5 4.5 4.5 4.5-2.016 4.5-4.5-2.016-4.5-4.5-4.5zm0 7.425a2.925 2.925 0 110-5.85 2.925 2.925 0 010 5.85zM16.92 6.58a.9.9 0 100 1.8.9.9 0 000-1.8z"></path></svg>
+</a>
+<a aria-label="YouTube" class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"></path></svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-12 border-t border-[#e7f1f3] dark:border-[#2a4045] pt-8 text-center">
+<p class="text-xs text-gray-500">© 2024 JewelIndia. Made with <span class="text-red-500">♥</span> in India. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<a class="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:shadow-xl" href="#">
+<svg fill="currentColor" height="28" viewBox="0 0 16 16" width="28" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+</svg>
+</a>
+</div>
+</body></html>

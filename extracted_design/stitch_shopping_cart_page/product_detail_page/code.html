@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JewelCart - Royal Kundan Choker Set</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#17b0cf",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#111e21",
+                        "text-main": "#0e191b",
+                        "text-muted": "#4e8b97"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }.no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white transition-colors duration-200">
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-[#e7f1f3] dark:border-gray-800">
+<div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20 gap-4">
+<div class="flex items-center gap-8 lg:gap-12">
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-8 h-8 text-primary">
+<svg class="w-full h-full" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-text-main dark:text-white">JewelCart</h1>
+</a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Necklaces</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Earrings</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Bangles</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Rings</a>
+<a class="text-sm font-medium hover:text-primary transition-colors text-primary" href="#">Bridal Sets</a>
+</nav>
+</div>
+<div class="flex items-center gap-4 flex-1 justify-end">
+<div class="hidden lg:flex w-full max-w-sm relative">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-text-muted text-[20px]">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-2 border-none rounded-lg bg-[#e7f1f3] dark:bg-gray-800 text-sm placeholder-text-muted focus:ring-2 focus:ring-primary" placeholder="Search for gold, diamonds..." type="text"/>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-text-main dark:text-white transition-colors relative">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+<button class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-text-main dark:text-white transition-colors relative">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full"></span>
+</button>
+<button class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-text-main dark:text-white transition-colors">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-6">
+<nav aria-label="Breadcrumb" class="flex mb-6">
+<ol class="flex items-center space-x-2">
+<li><a class="text-text-muted hover:text-primary text-sm font-medium" href="#">Home</a></li>
+<li class="text-text-muted text-sm">/</li>
+<li><a class="text-text-muted hover:text-primary text-sm font-medium" href="#">Necklaces</a></li>
+<li class="text-text-muted text-sm">/</li>
+<li><a class="text-text-muted hover:text-primary text-sm font-medium" href="#">Kundan Sets</a></li>
+<li class="text-text-muted text-sm">/</li>
+<li aria-current="page" class="text-text-main dark:text-white text-sm font-semibold">Royal Kundan Choker</li>
+</ol>
+</nav>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+<div class="lg:col-span-7 flex flex-col gap-4">
+<div class="relative aspect-[4/5] w-full rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-800 group shadow-sm">
+<div class="absolute top-4 left-4 z-10 flex gap-2">
+<span class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">50% OFF</span>
+<span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">star</span> BESTSELLER
+                        </span>
+</div>
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Close up of an ornate gold kundan necklace on a model's neck" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBqhTwixvsmDLfJvkgXMaajF1Bznc0SravZ86M34kG1b-BivJDG5UTz5IJ6LMV_XqmbHISXwKR3h6tKrIRf-xcB3Uw65xXH9fXQcJyDynecV-ozyahQ358gG1x_Rn8InvAcHcACgmveAhfVVCT_4gBzv3_s6GPmtyWvTkF-8NNbvPZ9DkBTo3ZvalU74zXTNtXgoa5_KUi7xWeD0sfIpe3IFGGk98tMPH4DqvqcpQDKEhzri4dP3hz9c5jQFRtMtXJz-P1d4ZvU-aBu');">
+</div>
+<button class="absolute bottom-4 right-4 bg-white dark:bg-gray-900 p-2 rounded-full shadow-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+<span class="material-symbols-outlined">zoom_in</span>
+</button>
+</div>
+<div class="flex gap-4 overflow-x-auto no-scrollbar pb-2">
+<button class="min-w-[80px] w-20 h-24 rounded-lg overflow-hidden border-2 border-primary cursor-pointer relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Ornate gold necklace thumbnail" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD4trFNlAKfljCvFLmbgPxPoCEXl24Cq51xYypBXaH1iTuAFHncWSBtYeDb5qp_AWTQz7JFAHPfbn-6SKGmhOGDkE1XqnUVIONChY9tjFCNB-35IsTk5fsxv5gOW6G2520dR3qqsNLhYN6Qd4aJZimpAT7bKTYzqw7An0G53QHe3BcYW34ZZtAXZ6mdY052wllkLqu8TjKJiCB_-DE6dkSjEj8GTIFkAPgPu4205UVK20cYHa0X31kFGyaevEcHIlYXTExB6cST5gTG');"></div>
+</button>
+<button class="min-w-[80px] w-20 h-24 rounded-lg overflow-hidden border border-transparent hover:border-gray-300 cursor-pointer relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Side view of gold kundan earrings thumbnail" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVKIt86dQRy1wXlbHKy3LDLoiT_iFLxRkgLm2wnrlXYisvEr4W39UiueTf4Jr1zjQy0ZJrsSpi7SNOl-Z05kZ_t4T3w5nWNHWRujw38bYuduofgB8-j9IkC4mFj5UhVozc2I9fLJzg_mlxBPiUw2om7PKEM-Qa_vAoePBPZJaeJhG6Gx7wp97u35SuGT56cq_lCwHO3Am80yzgCnLjSdotV6EM9SHlvMiS63I2U-A8POPdgAb8kwWo_dT1INtscUyyaI9wNHpfDpJG');"></div>
+</button>
+<button class="min-w-[80px] w-20 h-24 rounded-lg overflow-hidden border border-transparent hover:border-gray-300 cursor-pointer relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Jewelry set laid out on silk cloth thumbnail" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC04GhXiI1PhD7dkkk-577pZqUioHGi0No5pqAlJwcwA76ODsdfEFezSeHXwSqDbmysDm0PzAXfndcuS52prUgXKg1ITBMFtQOIs9Ael3saWcD6pBL16JgHtJJmQs7YIUKfwJLbPSLIVoATQshTA-oNHakB6gRGC-4-5ht1EbvpdLwKma0jtVyyQPdBGYUhzcT-KezHqP0aWbNzETnJ0hTlx1Ti6mSohGh9ow27wQcPVIonLhe9kHyca0XVvaGno0XBefPAwyDgPx4m');"></div>
+</button>
+<button class="min-w-[80px] w-20 h-24 rounded-lg overflow-hidden border border-transparent hover:border-gray-300 cursor-pointer relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Woman wearing kundan jewelry set thumbnail" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAet_Ntrtk-y9eI2Z0eMOQEH8SLRct7QSdgLieJ4Y_USd3kwp8nlmRPwW_H9YKwAqiPuMW-TcIKIMXMkhJnqi_iRZtUsnHnstXQgMzcolpq-KeecZLif6fyG8f-z7tOi4ffiibiH-8rN4MmLDm7PDBLhZIxKi9MM3lCQa39CEHWl5CZrZ495ys8nn78qBmPCY7WazqA50jMSL4dSSHvSfR9Xo_WsGdUHJJhSoLBnrx97aCSu1i6XuLRWoy_bF2HUBUKfniY9v4PmHPW');"></div>
+</button>
+</div>
+<div class="hidden lg:grid grid-cols-3 gap-4 py-6 border-t border-gray-100 dark:border-gray-800">
+<div class="flex flex-col items-center text-center gap-2 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+<div>
+<p class="text-sm font-bold">BIS Hallmarked</p>
+<p class="text-xs text-text-muted">100% Certified Gold</p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center gap-2 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<span class="material-symbols-outlined text-primary text-3xl">local_shipping</span>
+<div>
+<p class="text-sm font-bold">Free Shipping</p>
+<p class="text-xs text-text-muted">Insured Delivery</p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center gap-2 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<span class="material-symbols-outlined text-primary text-3xl">sync_lock</span>
+<div>
+<p class="text-sm font-bold">Easy Returns</p>
+<p class="text-xs text-text-muted">7-Day Policy</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="sticky top-24 flex flex-col gap-6">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="text-primary text-sm font-bold tracking-wider uppercase">Bridal Collection</span>
+<span class="w-1 h-1 rounded-full bg-gray-300"></span>
+<span class="text-text-muted text-xs">SKU: KUN-CHOK-004</span>
+</div>
+<h1 class="text-3xl lg:text-4xl font-extrabold text-text-main dark:text-white leading-tight mb-2">
+                            Royal Kundan Choker Set with Emeralds
+                        </h1>
+<p class="text-text-muted text-base font-normal">Handcrafted with precision in Jaipur using traditional Meenakari techniques.</p>
+<div class="flex items-center gap-2 mt-3 cursor-pointer group">
+<div class="flex text-yellow-400 text-lg">
+<span class="material-symbols-outlined fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="text-sm font-medium text-text-main dark:text-white underline group-hover:text-primary transition-colors">4.8 (124 Reviews)</span>
+</div>
+</div>
+<hr class="border-gray-200 dark:border-gray-800"/>
+<div>
+<div class="flex items-end gap-3 mb-1">
+<span class="text-4xl font-bold text-text-main dark:text-white">₹2,499</span>
+<span class="text-xl text-text-muted line-through font-normal mb-1">₹4,999</span>
+<span class="text-lg font-bold text-primary mb-1">50% OFF</span>
+</div>
+<p class="text-xs text-text-muted">Inclusive of all taxes</p>
+</div>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-bold text-text-main dark:text-white mb-2">Metal Finish</label>
+<div class="flex gap-3">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="metal" type="radio"/>
+<div class="w-10 h-10 rounded-full bg-[#E6C673] border-2 border-transparent peer-checked:border-primary peer-checked:ring-2 peer-checked:ring-offset-2 peer-checked:ring-primary shadow-sm flex items-center justify-center">
+</div>
+<span class="block text-center text-xs mt-1 text-text-muted">Gold</span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="metal" type="radio"/>
+<div class="w-10 h-10 rounded-full bg-[#E5B5A6] border-2 border-transparent peer-checked:border-primary peer-checked:ring-2 peer-checked:ring-offset-2 peer-checked:ring-primary shadow-sm"></div>
+<span class="block text-center text-xs mt-1 text-text-muted">Rose</span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="metal" type="radio"/>
+<div class="w-10 h-10 rounded-full bg-[#C0C0C0] border-2 border-transparent peer-checked:border-primary peer-checked:ring-2 peer-checked:ring-offset-2 peer-checked:ring-primary shadow-sm"></div>
+<span class="block text-center text-xs mt-1 text-text-muted">Silver</span>
+</label>
+</div>
+</div>
+</div>
+<div class="bg-[#f0f7f9] dark:bg-gray-800 p-4 rounded-lg">
+<label class="flex items-center gap-2 text-sm font-bold text-text-main dark:text-white mb-2">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+                            Check Delivery &amp; COD
+                        </label>
+<div class="flex gap-2 h-10">
+<input class="flex-1 rounded-lg border-none focus:ring-1 focus:ring-primary bg-white dark:bg-gray-700 text-sm pl-3" placeholder="Enter Pincode" type="text"/>
+<button class="text-primary font-bold text-sm px-4 hover:bg-white/50 rounded-lg transition-colors">Check</button>
+</div>
+<p class="text-xs text-text-muted mt-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-green-600">check_circle</span>
+                            Delivery by <span class="font-bold text-text-main dark:text-white ml-0.5">Wed, 14 Aug</span>
+</p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex gap-3">
+<div class="flex items-center border border-gray-300 dark:border-gray-600 rounded-lg h-12 w-32 px-2 bg-white dark:bg-gray-800">
+<button class="w-8 h-full flex items-center justify-center text-text-muted hover:text-primary">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="w-full h-full text-center border-none bg-transparent focus:ring-0 font-bold text-text-main dark:text-white p-0" type="text" value="1"/>
+<button class="w-8 h-full flex items-center justify-center text-text-muted hover:text-primary">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<button class="flex-1 bg-primary hover:bg-[#159eb9] text-white h-12 rounded-lg font-bold text-base flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all">
+<span class="material-symbols-outlined">shopping_bag</span>
+                                Add to Cart
+                            </button>
+</div>
+<button class="w-full border-2 border-primary text-primary hover:bg-primary/5 dark:hover:bg-primary/10 h-12 rounded-lg font-bold text-base transition-colors">
+                            Buy Now
+                        </button>
+<button class="w-full flex items-center justify-center gap-2 text-green-600 text-sm font-bold py-2 hover:underline">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+                            Inquire on WhatsApp
+                        </button>
+</div>
+<div class="border-t border-gray-200 dark:border-gray-800 mt-2">
+<details class="group py-4 border-b border-gray-200 dark:border-gray-800 cursor-pointer">
+<summary class="flex items-center justify-between font-bold text-text-main dark:text-white list-none">
+                                Product Specifications
+                                <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-sm text-text-muted leading-relaxed">
+<ul class="grid grid-cols-2 gap-y-2">
+<li><span class="font-semibold text-text-main dark:text-white">Material:</span> Brass Alloy</li>
+<li><span class="font-semibold text-text-main dark:text-white">Plating:</span> 22K Gold Plated</li>
+<li><span class="font-semibold text-text-main dark:text-white">Stone:</span> Semi-precious Kundan</li>
+<li><span class="font-semibold text-text-main dark:text-white">Closure:</span> Adjustable Drawstring</li>
+<li><span class="font-semibold text-text-main dark:text-white">Weight:</span> 85g approx.</li>
+<li><span class="font-semibold text-text-main dark:text-white">Dimensions:</span> L: 20cm, W: 4cm</li>
+</ul>
+</div>
+</details>
+<details class="group py-4 border-b border-gray-200 dark:border-gray-800 cursor-pointer">
+<summary class="flex items-center justify-between font-bold text-text-main dark:text-white list-none">
+                                Material &amp; Care
+                                <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-3 text-sm text-text-muted leading-relaxed">
+                                Avoid contact with water, perfumes, and sprays. Store in the provided cotton pouch or zip lock bag to maintain the luster for years. Wipe with a dry soft cloth after use.
+                            </div>
+</details>
+</div>
+<div class="bg-red-50 dark:bg-red-900/10 p-3 rounded-lg flex items-center gap-3 animate-pulse">
+<span class="material-symbols-outlined text-red-500 text-[20px]">visibility</span>
+<p class="text-xs font-bold text-red-600 dark:text-red-400">15 people are looking at this right now!</p>
+</div>
+</div>
+</div>
+</div>
+<section class="mt-20 border-t border-gray-200 dark:border-gray-800 pt-10">
+<div class="flex items-center justify-between mb-8">
+<h2 class="text-2xl font-bold text-text-main dark:text-white">Customer Reviews</h2>
+<a class="text-primary font-bold hover:underline" href="#">View all 124 reviews</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-2 mb-3">
+<div class="flex text-yellow-400 text-sm">
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Verified Buyer</span>
+</div>
+<h3 class="font-bold text-text-main dark:text-white mb-2">Absolutely Stunning!</h3>
+<p class="text-sm text-text-muted mb-4">"The quality is even better in person. The emerald stones look very real and the gold plating has a nice matte finish, not too shiny. Delivered to Mumbai in 2 days."</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-gray-200 bg-cover bg-center" data-alt="User profile picture" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDjm2-Qrign8VXJqhynL-tePPMjnW_nyRZMdkkXKE_tP2uIHAlUjFGH-NO1RFozK4025gxP9dmEBd3w_Y2sBHoBQhwpDaxqF8rXSO8sMny8JUB2bwj7NWZL7nRfKPSVL7K9Q8iXhw00ggbvcp-Xvskc6UsgETjyQysYt3Ke16O8oDfNPuxuMYJJEue0lzUseX4unyOTMbfb0ATxnL03meLc7lQEl7G95U8-NSoMzylwC_tiO_iyfWkAJspJaxCOmg8q7GJG0Qk621Y6');"></div>
+<span class="text-sm font-medium text-text-main dark:text-white">Priya S.</span>
+</div>
+</div>
+<div class="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-2 mb-3">
+<div class="flex text-yellow-400 text-sm">
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star_border</span>
+</div>
+<span class="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Verified Buyer</span>
+</div>
+<h3 class="font-bold text-text-main dark:text-white mb-2">Great for weddings</h3>
+<p class="text-sm text-text-muted mb-4">"Bought this for my sister's sangeet. It's a bit heavy but very manageable. The packaging was secure and premium."</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">AN</div>
+<span class="text-sm font-medium text-text-main dark:text-white">Anjali N.</span>
+</div>
+</div>
+<div class="hidden md:block p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm">
+<div class="flex items-center gap-2 mb-3">
+<div class="flex text-yellow-400 text-sm">
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined fill-current text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Verified Buyer</span>
+</div>
+<h3 class="font-bold text-text-main dark:text-white mb-2">Value for money</h3>
+<p class="text-sm text-text-muted mb-4">"For the price of ₹2,499 this is a steal. Looks like real polki jewelry. Highly recommend checking pincode first though."</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-gray-200 bg-cover bg-center" data-alt="Male user profile picture" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAoJoKmi1fOLKzMtm73YUWxEsyOsGvJmUVGzbir09I5adiIVaR2lK6_yO_6wfjBK3gKPwFyKxNirJjGs7wLrn6qXhwARdk0QTvSfQnUu62V2CXpXcnd6dYoHpPVskm3mZgDVr-hQMKo_3zolvoG5Ex82gwacRoqhqxpDtSKd6TAOXnj-UhEvj-0w-I0FBAiFOmI2qkCyAAvaWeuirDy_37qwPuCOwAtKa7uPZmVI5_Jjsz9cdiWDmZ-dVYW08yswECX99vuFSn4mJq_');"></div>
+<span class="text-sm font-medium text-text-main dark:text-white">Rahul K.</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-16 pb-8 mt-12">
+<div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<div class="space-y-4">
+<a class="flex items-center gap-2 group" href="#">
+<div class="w-8 h-8 text-primary">
+<svg class="w-full h-full" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-xl font-bold text-text-main dark:text-white">JewelCart</span>
+</a>
+<p class="text-text-muted text-sm leading-relaxed">
+                        India's finest destination for handcrafted Kundan, Polki, and antique jewelry. Celebrating tradition with modern elegance since 2010.
+                    </p>
+<div class="flex gap-4 pt-2">
+<a class="text-text-muted hover:text-blue-600 transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-text-muted hover:text-pink-600 transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772 4.902 4.902 0 011.772-1.153c.636-.247 1.363-.416 2.427-.465C9.673 2.013 10.03 2 12.315 2zm-1.026 3.663c-2.573 0-2.906.01-3.926.057-.936.043-1.442.203-1.778.334a3.1 3.1 0 00-1.15.748 3.1 3.1 0 00-.748 1.15c-.13.336-.29.842-.334 1.778-.047 1.02-.057 1.353-.057 3.926s.01 2.906.057 3.926c.043.936.203 1.442.334 1.778.22.56.518.966.974 1.423.457.456.863.754 1.423.974.336.13.842.29 1.778.334 1.02.047 1.353.057 3.926.057 2.573 0 2.906-.01 3.926-.057.936-.043 1.442-.203 1.778-.334.56-.22.966-.518 1.423-.974.456-.457.754-.863.974-1.423.13-.336.29-.842.334-1.778.047-1.02.057-1.353.057-3.926s-.01-2.906-.057-3.926c-.043-.936-.203-1.442-.334-1.778a3.1 3.1 0 00-.748-1.15 3.1 3.1 0 00-1.15-.748c-.336-.13-.842-.29-1.778-.334-1.02-.047-1.353-.057-3.926-.057zM12.315 7.27a4.73 4.73 0 110 9.46 4.73 4.73 0 010-9.46zm0 1.637a3.093 3.093 0 100 6.186 3.093 3.093 0 000-6.186zm5.343-2.61a1.09 1.09 0 110 2.18 1.09 1.09 0 010-2.18z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-text-muted hover:text-red-600 transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 01-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 01-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 011.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418zM15.194 12 10 15V9l5.194 3z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-text-muted hover:text-red-700 transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.399.165-1.495-.69-2.433-2.852-2.433-4.587 0-3.725 2.705-7.161 7.807-7.161 4.098 0 7.29 2.928 7.29 6.842 0 4.086-2.571 7.373-6.142 7.373-1.199 0-2.324-.623-2.71-1.358h-.002l-.969 3.733c-.353 1.36-1.311 3.06-1.95 4.095 1.474.455 3.033.699 4.638.699 6.626 0 12.001-5.367 12.001-11.987 0-6.621-5.375-11.987-12.001-11.987z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h3 class="font-bold text-text-main dark:text-white mb-6">Shop Collections</h3>
+<ul class="space-y-3 text-sm text-text-muted">
+<li><a class="hover:text-primary transition-colors" href="#">Bridal Sets</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Kundan Necklaces</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Polki Earrings</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Antique Bangles</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Gift Cards</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-main dark:text-white mb-6">Customer Care</h3>
+<ul class="space-y-3 text-sm text-text-muted">
+<li><a class="hover:text-primary transition-colors" href="#">Track Your Order</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Shipping Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Returns &amp; Exchanges</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-main dark:text-white mb-6">Contact Us</h3>
+<ul class="space-y-4 text-sm text-text-muted">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-[20px] shrink-0 mt-0.5 text-primary">location_on</span>
+<span>124, Johari Bazaar,<br/>Jaipur, Rajasthan 302003</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[20px] shrink-0 text-primary">call</span>
+<span>+91 98765 43210</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[20px] shrink-0 text-primary">mail</span>
+<span>support@jewelcart.in</span>
+</li>
+<li>
+<button class="flex items-center gap-2 bg-green-50 text-green-700 font-bold px-4 py-2 rounded-lg hover:bg-green-100 transition-colors mt-2">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+                                Chat on WhatsApp
+                            </button>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-100 dark:border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+<p class="text-sm text-text-muted">© 2024 JewelCart India. All rights reserved.</p>
+<div class="flex items-center gap-2 flex-wrap justify-center">
+<span class="text-xs font-bold text-text-muted mr-2 hidden sm:block">100% Secure Payment</span>
+<img alt="" class="h-6 w-auto object-contain bg-white rounded p-0.5 border border-gray-200" data-alt="Mastercard logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvQQs_78bwQwQJ1FkpotjHKL0Z7zVIXsEohG0N9Kh0ce6fbRBJQOsdNIh93D0tOhlDHl6DnrvscT2wVmaGNg3HmMpLxCof2XinYM1xa4HySRaj-12vJdhznggrI6seNBkL1c8MDehzmtH2cOR_IXtWSnwe_SyD-vrVrLFptOVaDOGjnuPt269X1pwsE6op9Hv9ztnrinCZLLqXrz3k8-1mpI1PLQufD-JeBG6M-r8lLd6HYd5ObAYV0ROcJfZMIpz7-9XrPnd1MJpK"/>
+<img alt="" class="h-6 w-auto object-contain bg-white rounded p-0.5 border border-gray-200" data-alt="Visa logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4Ydy_yQF3-4Qj38DU_lclR-p5zi0zm2aUsdnDhB6YJdEQPXJzf7efehTbIuZsePDaw4x382CsRYSfLEC5a7klOH0bELzNkDyvqYRTEdw3J7wrwTvtNHSBbdu1R6XyuZBlQBmEJ0EEPGNadMcX7N5YAvPGm6f6WN-E1WGcVHkmGwMOgp5CHlEB4nYkFsivzJNcCuwyMK4icYbr5qFRhStKdLm2Nc-72B3dc2lu56HtSrvTauam0Hf1YnjPmpfxn4kEvSUF4z3-00zH"/>
+<img alt="" class="h-6 w-auto object-contain bg-white rounded p-0.5 border border-gray-200" data-alt="Rupay logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsNdFJv28fY8UwhFIYJp8If8UpYS3VF9ig3m_hhchaIakQ9-SQ5OnRekb-6o-d3AAru4ARrlrDVeOZuD1GyIFHvjdfq2E-KZTFLy_Qk3KUVXkr-VGQO_9DVTxYdofegDQbT9K4udHJLwfvRAe4dpYcQnYk0yBzF9thy13fpd4qtIS2AOVaB3sb96UPCPysFQtcKcfZXIqPL0dPf6jEMFG5NTuQ5nZ1xCUMOI-NVQVbj1dD-GSQe9okdJ-4-j1hiD_wZPVQpBKq898n"/>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
